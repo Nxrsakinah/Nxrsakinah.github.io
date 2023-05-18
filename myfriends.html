@@ -1,0 +1,337 @@
+<html>
+<head>
+<title>My friends</title>
+</head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #9388A2;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="index.html">Home</a>
+  <a href="aboutme.html">About me</a>
+  <a href="myfriends.html">My friends</a>
+  <a href="myeducation.html">My education</a>
+  <a href="myhobbies.html">My hobby</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<title>My friends</title>
+<style>
+body {
+  background-color: #F7D6D0;
+
+}
+</style>
+
+<center><h1><b>'*•.¸♡My friends♡¸.•*'</b></h1></center>
+<body background="image/purple.jpg">
+
+<center><video width="640" height="360" controls>
+      <source src="media/friends.mp4" type="video/mp4">
+    </video></center>
+
+<br>
+<br>
+<br>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #D9A1A0;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<hr>
+<center><b><p>My school friends</p></b></center>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="image/putrajaya.jpg" alt="friends" style="width:100%">
+      <h3>My school friends</h3>
+      <p>There are my friends back in school in putrajaya. Back in Putrajaya, it was not easy for me to get used of myself to a new surrounding and Im thankful for Amni, Nana, and alia for being my friends with me and helped me a lot at the new places.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="image/dina.JPG" alt="dina" style="width:100%">
+      <h3>Dina</h3>
+      <p>Dina is someone who I look up to whenever I feeling down or not feeling like myself. She is my non-paid therapist who always there for me and support me in any way.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="image/zulaikha.JPG" alt="zulaikha" style="width:100%">
+      <h3>Zulaikha</h3>
+      <p>Zulaikha is my friend who we dont really keep up with each other updates but still can talk without feeling awkward</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="image/syakirah.JPG" alt="syakirah" style="width:100%">
+      <h3>Syakirah</h3>
+      <p>Syakirah is the person who be friend with me back in primary school. It become a habit of me to be alone back in primary school but Syakirah decided to approach me and being my friend which made me appreciate her kindness </p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+<!-- END MAIN -->
+</div>
+
+<br>
+<br>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  display: flex;
+}
+
+.image {
+  flex: 1;
+  margin-right: 10px; /* Add margin for spacing */
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #D9A1A0;
+  width: 80%;
+  height: 100;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: grey;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<center><b><p>My Tanah</p></b></center>
+
+<div class="container">
+  <div class="image">
+   <center> <img src="image/tanah.JPG" width="60% alt="tanah" class="image"><center>
+    <div class="overlay">
+<br>
+
+      <div class="tanah">Tanah is a friend group that we know by a group chat called tanah. We bacisally just a mutuals on twitter but one of us decided to made a group chat and named it as tanah. We have the same interest on a kpop group name Stray Kids.</div>
+    </div>
+  </div>
+  <div class="image">
+    <center><img src="image/twt.JPEG" width="60%" alt="tanah" class="image"></center>
+    <div class="overlay">
+<br>
+
+     <center><div class="Tanah">Tanah used to have 20 members but due to personnal reason and stuff, many of them left the group but some of them are still in contact with us. In the pictures shows Anis, Farah, Sarah, Qai, Haifa and syira</div></center>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background-color: #F4B9B8;
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+</style>
+</head>
+<body>
+
+<center><b><h2>My classmates</h2></b></center>
+
+<div class="container">
+  <img src="image/classmate.JPG" alt="classmates" style="width:100%;">
+  <div class="text-block">
+    <h4>KIM110C</h4>
+    <p>They are my diploma classmates. We come from class C but since there are not many of us so we need to combine class with class A. Our class include Iman, Zeera, Nina, Ika, J, Mia, Nabila, Me, Kama, Suhayl,Ronald, Iman Imran, Syazwan, Afizul, the class representative Firdaus</p>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>My Youtube channel</h2>
+
+<!-- Add font awesome icons -->
+
+<a href="https://www.youtube.com/channel/UCoPlADaXODeqx34fbCMSTcw" class="fa fa-youtube"></a>
+
+
+</body>
+</html>

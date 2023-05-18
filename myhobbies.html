@@ -1,0 +1,243 @@
+<html>
+<head>
+<title>myhobbies</title>
+<body background="image/purple.jpg">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #9388A2;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <a href="index.html">Home</a>
+  <a href="aboutme.html">About me</a>
+  <a href="myfriends.html">My friends</a>
+  <a href="myeducation.html">My education</a>
+  <a href="myhobbies.html">My hobby</a>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<body>
+<center><h1><b>͙ ͙۪۪̥ ͙ ♡My hobbies♡ ͙ ͙۪۪̥ ͙</b></h1></center>
+
+<center><video width="640" height="360" controls>
+      <source src="media/myself.mp4" type="video/mp4">
+    </video></center>
+
+<br>
+<br>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+</style>
+</head>
+<body>
+
+
+<center><b><p>Makeup ♡</p></b></center>
+
+<center><img src="image/makeup.JPG" alt="makeup" width="300" height="450"></center>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+
+<center><table style=" background-color: #E9DDD4; class="center "></center>
+  <tr>
+  </tr>
+  <tr>
+   <td>Makeup is something that I love to do when Im bored. By playing with makeup, 
+I can sharpen my art skills and release my stress</td>
+</tr>
+</table>
+<br>
+<br>
+<center><b><p>Baking & cooking ♡</p></b></center>
+
+<center><img src="image/muffin.JPG" alt="makeup" width="300" height="450"></center>
+<center><table style=" background-color: #E9DDD4; class="center "></center>
+  <tr>
+  </tr>
+  <tr>
+   <td>Baking and cooking is an activity that are stress released. 
+The outcome of the process for cooking and baking is so satisfying!</td>
+</tr>
+</table>
+<br>
+<center><img src="image/recipe.JPG" alt="makeup" width="300" height="450"></center>
+<style>
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+</style>
+</head>
+<body>
+<br>
+<p>Steps:</p>
+<ul>
+  <li>For the veggies such as onion, potato, and carrot are need to be cut in square</li>
+  <li>Then, the salted black bean pasted are needed to fry with 2 spoonfull of oil</li>
+  <li>In another pan, fry the beef/chicken first then put it aside</li>
+  <li>Stir fry the minced garlic in another pan, then put the fried beef/chicken and fried salted black bean paste inside before put the veggies</li>
+  <li>Put the all the veggies inside and stir fry it then put water</li>
+  <li>Stir it then put chicken stock and oyster sauce all together</li>
+  <li>Lastly, put the cornstarch water mixture to make it thicker and know its ready to eat with any noodle u prefer</li>
+</ul>
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+  margin-right: 20px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+<h3>Origami & Crochet:</h3>
+
+<div class="flip-card-container">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="image/origami.jpg" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <p>Origami</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="image/crochet.jpg" alt="Avatar" style="width:300px;height:300px;">
+      </div>
+      <div class="flip-card-back">
+        <p>Crocheting</p>
+      </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+</body>
+</html>
